@@ -47,12 +47,27 @@
         .button:hover {
             background-color: #0056b3;
         }
+
+        /* Red color for prediction result */
+        .red-text {
+            color: red;
+        }
+
+        /* Green color for prediction result */
+        .green-text {
+            color: green;
+        }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1>{{final_result}}</h1>
+        <!-- Dynamically insert prediction result with a span element for different colors -->
+        {% if final_result == "This Individual Will Pay the Credit Bill Next Month" %}
+            <h1><span class="green-text">{{final_result}}</span></h1>
+        {% else %}
+            <h1><span class="red-text">{{final_result}}</span></h1>
+        {% endif %}
         <button class="button" onclick="window.location.href='/form'">Predict Again</button>
     </div>
 
