@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Default Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://www.usatoday.com/money/blueprint/images/uploads/2023/04/01055507/credit-card-vs-debit-card-e1690883737753.jpg?width=700&fit=cover&format=webp'); /* Set the image as background */
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the background image */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            height: 100vh; /* Make the body fill the entire viewport height */
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Add semi-transparent background color */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            position: relative; /* To position the credit card image */
+        }
+
+        h1 {
+            color: #e2226f;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            outline: none; /* Remove default focus outline */
+        }
+
+        button:hover {
+            background-color: #0056b3;
+            transform: translateY(-5px); /* Move button up on hover */
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+        }
+
+        /* Credit card image (not needed anymore as it's used as background) */
+        /* .credit-card {
+            position: absolute;
+            top: -50px;
+            left: calc(50% - 50px); // Center horizontally 
+            width: 100px;
+            height: auto;
+            z-index: 1; // Ensure the image appears above other content 
+        } */
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Credit Card Default Prediction</h1>
+        <h2>The Project Made by Suchindra Kumar</h2>
+        <p>Click the Button Below to Proceed to The Prediction </p>
+        <form action="/form" method="get">
+            <button type="submit">Proceed</button>
+        </form>
+    </div>
+</body>
+</html>
