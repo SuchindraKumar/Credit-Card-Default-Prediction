@@ -3,7 +3,6 @@ pandas
 scikit-learn
 matplotlib
 seaborn
-xgboost
 Flask
 ipykernel
 flask_pymongo

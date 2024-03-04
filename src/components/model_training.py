@@ -13,7 +13,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.naive_bayes import GaussianNB
-from xgboost import XGBClassifier
+
 
 
 @dataclass
@@ -43,7 +43,6 @@ class ModelTrainer:
                                        criterion='entropy'): 'Decision Tree',
                 RandomForestClassifier(n_estimators=200, max_depth=10, min_samples_split=4, min_samples_leaf=5,
                                        max_features='sqrt'): 'Random Forest',
-                XGBClassifier(n_estimators=100, max_depth=5, learning_rate=0.1):"XGBoost",
                 GaussianNB(): 'Naiye Bayes'
             }
 
