@@ -90,6 +90,10 @@ python src/pipeline/training_pipeline.py
 ```
 python app.py
 ```
+### Now,
+```bash
+Open Up Your local-host and Port
+```
 
 
 ## Deployment
