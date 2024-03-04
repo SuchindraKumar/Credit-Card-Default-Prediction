@@ -1,6 +1,6 @@
 # End To End ML Project: Credit Card Default Prediction
 
-### Problem Statement : Credit Card Default Prediction
+### Problem Statement :
 
 The Task at hand is to create a Predictive Model that can Precisely Forecast if a Credit Card Holder will experience a Payment Default in the near future. Financial institutions need to be able to predict Credit Card Defaults in order to evaluate the risk of granting credit and make well-informed lending decisions
 
@@ -96,8 +96,10 @@ python app.py
 
 ![App Screenshot](https://github.com/SuchindraKumar/Credit-Card-Default-Prediction/blob/main/images/Home_Page.png)
 
+
 ![App Screenshot](https://github.com/SuchindraKumar/Credit-Card-Default-Prediction/blob/main/images/Prediction_Form_1.png)
 ![App Screenshot](https://github.com/SuchindraKumar/Credit-Card-Default-Prediction/blob/main/images/Prediction_Form_2.png)
+
 
 ![App Screenshot](https://github.com/SuchindraKumar/Credit-Card-Default-Prediction/blob/main/images/prediction_result.png)
 
