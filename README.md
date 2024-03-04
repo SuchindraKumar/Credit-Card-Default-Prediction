@@ -26,11 +26,15 @@ By exploring these avenues of analysis, we can gain a deeper understanding of th
 
 ## Tech Stack
 
-**Python 3.9**
+**Python 3.9** https://www.python.org/downloads/
 
 **Flask**
 
-**MongoDB**
+**MongoDB :** 
+
+**MongoDB Community Server** https://www.mongodb.com/try/download/community-kubernetes-operator
+
+ **MongoDB Compass** https://www.mongodb.com/try/download/compass
 
 **Numpy**
 
