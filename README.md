@@ -1,23 +1,8 @@
 # End To End ML Project: Credit Card Default Prediction
 
-### Created an environment
+### Problem Statement : Credit Card Default Prediction
 
-```
-conda create -p env python=3.9
-```
-### Activate the environment
-
-```
-source activate ./env
-```
-
-### Install all necessary libraries
-
-```
-pip install -r requirements.txt
-```
-
-
+The Task at hand is to create a Predictive Model that can Precisely Forecast if a Credit Card Holder will experience a Payment Default in the near future. Financial institutions need to be able to predict Credit Card Defaults in order to evaluate the risk of granting credit and make well-informed lending decisions
 
 # Dataset Description:
 The "Default of Credit Card Clients" dataset provides valuable insights into credit card default behavior among clients in Taiwan. With 25 variables covering demographic factors, credit data, payment history, and bill statements, the dataset offers a comprehensive view of the factors influencing default payments. Here's a breakdown of potential exploration and analysis:
@@ -37,3 +22,82 @@ The "Default of Credit Card Clients" dataset provides valuable insights into cre
 7. **Visualization**: Use visualizations such as histograms, box plots, and correlation matrices to gain insights into the distribution of variables and their relationships with default payments.
 
 By exploring these avenues of analysis, we can gain a deeper understanding of the factors influencing credit card default behavior and identify strategies for mitigating default risk. This knowledge can inform credit risk management practices and aid in decision-making processes for lenders and financial institutions.
+
+
+## Tech Stack
+
+**Python 3.9**
+
+**Flask**
+
+**MongoDB**
+
+**Numpy**
+
+**Pandas**
+
+**Scikit-Learn**
+
+**Matplotlib**
+
+**Seaborn**
+
+**Xgboost**
+
+
+## Run Locally
+
+### Created an environment
+
+```
+conda create -p env python=3.9
+```
+### Activate the environment
+
+```
+source activate ./env
+```
+
+### Clone the Project
+
+```bash
+  git clone https://github.com/SuchindraKumar/Credit-Card-Default-Prediction.git
+```
+
+### Go to the Project Directory
+
+```bash
+  cd Credit-Card-Default-Prediction
+```
+
+### Install dependencies
+
+```
+pip install -r requirements.txt
+```
+### Train The Model
+```
+python src/pipeline/training_pipeline.py
+```
+
+### Run
+
+```
+python app.py
+```
+
+
+
+
+
+
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
+
+## Authors
+
+- [@SuchindraKumar](https://github.com/SuchindraKumar)
