@@ -45,6 +45,7 @@ class ModelTrainer:
                                        max_features='sqrt'): 'Random Forest',
                 GaussianNB(): 'Naiye Bayes'
             }
+            
 
             results = {}
 

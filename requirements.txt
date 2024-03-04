@@ -6,5 +6,4 @@ seaborn
 Flask
 ipykernel
 flask_pymongo
-
 -e .
