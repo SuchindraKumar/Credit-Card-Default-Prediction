@@ -3,9 +3,9 @@ pandas
 scikit-learn
 matplotlib
 seaborn
-catboost
 xgboost
 Flask
 ipykernel
+flask_pymongo
 
 -e .
