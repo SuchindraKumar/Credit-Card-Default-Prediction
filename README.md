@@ -96,6 +96,11 @@ python app.py
 
 ![App Screenshot](https://github.com/SuchindraKumar/Credit-Card-Default-Prediction/blob/main/images/Home_Page.png)
 
+![App Screenshot](https://github.com/SuchindraKumar/Credit-Card-Default-Prediction/blob/main/images/Prediction_Form_1.png)
+![App Screenshot](https://github.com/SuchindraKumar/Credit-Card-Default-Prediction/blob/main/images/Prediction_Form_2.png)
+
+![App Screenshot](https://github.com/SuchindraKumar/Credit-Card-Default-Prediction/blob/main/images/prediction_result.png)
+
 
 
 ## Authors
