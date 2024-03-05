@@ -35,7 +35,7 @@ def prediction():
         prediction = predict_pipeline.predict(data_frame)
 
         result = prediction.tolist()
-        if result[0] > 0.5:
+        if result[0] == 1:
             prediction_result = "This Individual Won't Pay the Credit Bill Next Month"
         else:
             prediction_result = "This Individual Will Pay the Credit Bill Next Month"
