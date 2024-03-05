@@ -57,11 +57,6 @@ By exploring these avenues of analysis, we can gain a deeper understanding of th
   git clone https://github.com/SuchindraKumar/Credit-Card-Default-Prediction.git
 ```
 
-### Go to the Project Directory
-
-```bash
-  cd Credit-Card-Default-Prediction
-```
 
 ### Created an environment
 
