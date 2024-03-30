@@ -1,6 +1,6 @@
 # End To End ML Project: Credit Card Default Prediction
 
-(https://github.com/SuchindraKumar/Credit-Card-Default-Prediction/blob/318ec710959a1b8daf35aacdffc4c7862075e2d0/images/ccfd.png)
+(https://github.com/SuchindraKumar/Credit-Card-Default-Prediction/blob/main/images/ccfd.png)
 
 
 ### Problem Statement :
