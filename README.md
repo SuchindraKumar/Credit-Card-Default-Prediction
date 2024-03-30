@@ -1,14 +1,14 @@
-# End To End ML Project: Credit Card Default Prediction
+# End To End ML Project: Credit Card Default Prediction 📊
 
 
 ![App Screenshot](https://github.com/SuchindraKumar/Credit-Card-Default-Prediction/blob/main/images/ccfd.png)
 
 
-### Problem Statement :
+### Problem Statement: 💡
 
 The Task at hand is to create a Predictive Model that can Precisely Forecast if a Credit Card Holder will experience a Payment Default in the near future. Financial institutions need to be able to predict Credit Card Defaults in order to evaluate the risk of granting credit and make well-informed lending decisions
 
-# Dataset Description:
+# Dataset Description:📋
 The "Default of Credit Card Clients" dataset provides valuable insights into credit card default behavior among clients in Taiwan. With 25 variables covering demographic factors, credit data, payment history, and bill statements, the dataset offers a comprehensive view of the factors influencing default payments. Here's a breakdown of potential exploration and analysis:
 
 1. **Demographic Analysis**: Explore how default payment probability varies across different demographic variables such as gender, education, marital status, and age. This analysis could reveal if certain demographic groups are more prone to default than others.
@@ -28,7 +28,7 @@ The "Default of Credit Card Clients" dataset provides valuable insights into cre
 By exploring these avenues of analysis, we can gain a deeper understanding of the factors influencing credit card default behavior and identify strategies for mitigating default risk. This knowledge can inform credit risk management practices and aid in decision-making processes for lenders and financial institutions.
 
 
-## Tech Stack
+## Tech Stack 💻
 
 **Python 3.9** LINK: https://www.python.org/downloads/
 
@@ -49,6 +49,10 @@ By exploring these avenues of analysis, we can gain a deeper understanding of th
 **Matplotlib**
 
 **Seaborn**
+
+- AWS (Amazon Web Services)
+- GitHub Actions
+- Docker
 
 
 ## Run Locally
@@ -95,7 +99,7 @@ Open Up Your local-host and Port Number 8080
 
 ## Deployment
 
-# AWS-CICD-Deployment-with-Github-Actions
+# AWS-CICD-Deployment-with-Github-Actions 🚀
 
 ## 1. Login to AWS console.
 
