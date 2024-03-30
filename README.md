@@ -55,7 +55,7 @@ By exploring these avenues of analysis, we can gain a deeper understanding of th
 - **Docker**
 
 
-## Run Locally
+## To Run This Project Locally, Follow These Steps:
 
 ### Clone the Project
 
@@ -174,7 +174,7 @@ Open Up Your local-host and Port Number 8080
 
 
 
-## Screenshots
+## Screenshots 📸
 
 ![App Screenshot](https://github.com/SuchindraKumar/Credit-Card-Default-Prediction/blob/main/images/Home_Page.png)
 
@@ -187,6 +187,6 @@ Open Up Your local-host and Port Number 8080
 
 
 
-## Authors
+## Authors 📝
 
 - [@SuchindraKumar](https://github.com/SuchindraKumar)
