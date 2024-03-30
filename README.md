@@ -30,29 +30,29 @@ By exploring these avenues of analysis, we can gain a deeper understanding of th
 
 ## Tech Stack 💻
 
-**Python 3.9** LINK: https://www.python.org/downloads/
+- **Python 3.9** LINK: https://www.python.org/downloads/
 
-**Flask**
+- **Flask**
 
-**MongoDB :** 
+- **MongoDB:** 
 
-**MongoDB Community Server** LINK: https://www.mongodb.com/try/download/community-kubernetes-operator
+- **MongoDB Community Server** LINK: https://www.mongodb.com/try/download/community-kubernetes-operator
 
- **MongoDB Compass** LINK: https://www.mongodb.com/try/download/compass
+ - **MongoDB Compass** LINK: https://www.mongodb.com/try/download/compass
 
-**Numpy**
+- **Numpy**
 
-**Pandas**
+- **Pandas**
 
-**Scikit-Learn**
+- **Scikit-Learn**
 
-**Matplotlib**
+- **Matplotlib**
 
-**Seaborn**
+- **Seaborn**
 
-- AWS (Amazon Web Services)
-- GitHub Actions
-- Docker
+- **AWS (Amazon Web Services)**
+- **GitHub Actions**
+- **Docker**
 
 
 ## Run Locally
