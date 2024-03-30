@@ -48,8 +48,6 @@ By exploring these avenues of analysis, we can gain a deeper understanding of th
 
 **Seaborn**
 
-**Xgboost**
-
 
 ## Run Locally
 
