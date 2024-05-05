@@ -24,7 +24,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info("Data ingestion method starts.")
         try:
-            df = pd.read_csv(os.path.join('data', 'Cleaned_Credit_Card.csv'))
+            df = pd.read_csv(os.path.join('data', 'Credit_Card.csv'))
             logging.info("Reading data from database")
 
             os.makedirs(os.path.dirname(self.ingestion_config.raw_path), exist_ok=True)
