@@ -67,12 +67,12 @@ By exploring these avenues of analysis, we can gain a deeper understanding of th
 ### Created an environment
 
 ```
-conda create -p env python=3.9
+conda create -p venv python==3.9 -y
 ```
 ### Activate the environment
 
 ```
-source activate ./env
+source activate ./venv
 ```
 
 
