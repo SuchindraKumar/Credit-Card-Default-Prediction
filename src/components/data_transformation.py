@@ -76,7 +76,7 @@ class DataTransformation:
             logging.info("Getting preprocessor object")
             preprocessor_obj = self.get_data_transformation_obj()
 
-            target_col = 'def_pay'
+            target_col = 'default.payment.next.month'
             drop_cols = [target_col]
 
             # Separating input and target features

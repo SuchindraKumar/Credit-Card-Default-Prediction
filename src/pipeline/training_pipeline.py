@@ -8,6 +8,7 @@ from src.components.data_ingestion import DataIngestion
 from src.components.data_transformation import DataTransformation
 from src.components.model_training import ModelTrainer
 
+
 class TrainingPipeline:
     def __init__(self):
         pass
@@ -21,7 +22,12 @@ class TrainingPipeline:
             train_arr, test_arr, _ = data_transformation.initiate_data_transformation(train_data_path, test_data_path)
 
             model_trainer = ModelTrainer()
-            best_model, best_model_score = model_trainer.initiate_model_training(train_arr, test_arr)
+            result = model_trainer.initiate_model_training(train_arr, test_arr)
+
+            if len(result) != 2:
+                raise ValueError("Unexpected number of values returned from model training")
+
+            best_model, best_model_score = result
 
             return best_model, best_model_score
 
