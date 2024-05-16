@@ -88,6 +88,14 @@ class ModelTrainer:
 
             model_report = evaluate_model(X_train=X_train, y_train=y_train, X_test=X_test, y_test=y_test,
                                models=models, param=params)
+            
+            # Show scores for all models
+            logging.info("Scores for all models:")
+            for model_name, metrics in model_report.items():
+                logging.info("Model: %s", model_name)
+                for metric, value in metrics.items():
+                    logging.info("%s: %s", metric, str(value))
+                logging.info("\n")
 
             # Find the best model based on the evaluation report
             best_model_name = max(model_report, key=lambda x: model_report[x]['roc_auc_score'])
