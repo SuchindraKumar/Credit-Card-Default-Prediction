@@ -176,15 +176,15 @@ Open Up Your local-host and Port Number 8080
 
 ## Screenshots 📸
 
-### HOME PAGE
+### HOME PAGE :
 ![App Screenshot](https://github.com/SuchindraKumar/Credit-Card-Default-Prediction/blob/main/images/home%20page.png)
 
-### PREDICTION FORM
+### PREDICTION FORM :
 
 ![App Screenshot](https://github.com/SuchindraKumar/Credit-Card-Default-Prediction/blob/main/images/form%201.png)
 ![App Screenshot](https://github.com/SuchindraKumar/Credit-Card-Default-Prediction/blob/main/images/form%202.png)
 
-### RESULTS
+### RESULTS :
 
 ![App Screenshot](https://github.com/SuchindraKumar/Credit-Card-Default-Prediction/blob/main/images/prediction_result.png)
 
