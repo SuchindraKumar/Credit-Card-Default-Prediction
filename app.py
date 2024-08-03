@@ -1,15 +1,24 @@
 import sys
 from flask import Flask, request, render_template
 from flask_pymongo import PyMongo
+from pymongo.mongo_client import MongoClient
 from src.pipeline.prediction_pipeline import CustomDataset, PredictPipeline
 from src.exception import CustomException
 from src.logger import logging
+from dotenv import load_dotenv
+import os
 
 application = Flask(__name__)
+
+load_dotenv()
+
 app = application
 
 # MongoDB connection
-app.config['MONGO_URI'] = 'mongodb://localhost:27017/credit_card_db'
+MONGO_URI = os.environ.get('MONGO_URI')
+client = MongoClient(MONGO_URI)
+db = client['credit_card_default']
+app.config['MONGO_URI'] = MONGO_URI
 mongo = PyMongo(app)
 
 # Define global error handler
@@ -43,7 +52,9 @@ def prediction():
         # Save data to MongoDB
         entry = request.form.to_dict()
         entry['prediction_result'] = prediction_result
-        mongo.db.credit_card_data.insert_one(entry)
+        logging.info("Saving data to MongoDB...")
+        db.credit_card_data.insert_one(entry)
+        logging.info("Data saved to MongoDB successfully.")
 
         logging.info("Data saved to MongoDB")
 
