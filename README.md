@@ -81,7 +81,7 @@ source activate ./venv
 ```
 pip install -r requirements.txt
 ```
-### Create a .env file in the root directory and add your Pinecone credentials as follows:
+### Create a .env file in the root directory and add your MongoDB Connection URI as follows:
 ```
 MONGO_URI = "mongodb://[username:password@]host1[:port1][,host2[:port2],...[,hostN[:portN]]][/[database][?options]]"
 ```
