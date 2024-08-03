@@ -7,4 +7,5 @@ xgboost
 Flask
 ipykernel
 flask_pymongo
+python-dotenv
 -e .
